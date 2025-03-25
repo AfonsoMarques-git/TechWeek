@@ -41,12 +41,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="content">
-            <div class="event-content">
-                <div class="event-details">Selecione um dia para ver os detalhes do evento</div>
+            <div class="content">
+                <div class="event-content">
+                    <div class="event-details">Selecione um dia para ver os detalhes do evento</div>
+                </div>
             </div>
         </div>
+
     </div>
     <?php include 'footer.php'; ?>
     <script>
