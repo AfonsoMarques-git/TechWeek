@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <day number="24">
+        <event>
+            <hora>14:45</hora>
+            <titulo>GPSI, Engenharia e Mercado de Trabalho</titulo>
+            <descricao>
+                A minha experiência como fullstack developer na F3M e ex-aluno da Escola
+                Profissional de Braga / Universidade Do Minho
+            </descricao>
+            <oradores>
+                <foto>images/duarteMelo.JPG</foto>
+                <nome>Duarte Melo</nome>
+                <empresa>F3M</empresa>
+            </oradores>
+        </event>
+    </day>
+    <day number="25">
+        <event>
+            <hora>10:00</hora>
+            <titulo>Programação de Arduino</titulo>
+            <descricao>
+                Whorkshop: Básico de Programação de Arduino - Finalistas ELE22
+            </descricao>
+            <oradores>
+                <foto>images/defaultorador.png</foto>
+                <nome>Francisco Pires</nome>
+                <foto>images/defaultorador.png</foto>
+                <nome>David Puga</nome>
+                <foto>images/defaultorador.png</foto>
+                <nome>Duarte Prazeres</nome>
+            </oradores>
+        </event>
+
+        <event>
+            <hora>14:45</hora>
+            <titulo>Perigos da Internet</titulo>
+            <descricao>
+                Perigos da Internet e Redes Sociais - Inspetores do DIP de Braga
+            </descricao>
+            <oradores>
+                <foto>images/defaultorador.png</foto>
+                <nome>2 inspetores e 1 inspetor chefe</nome>
+                <empresa>Polícia Judiciária</empresa>
+            </oradores>
+        </event>
+    </day>
+    <day number="26">
+        <event>
+            <hora>10:00</hora>
+            <titulo>Cybersegurança</titulo>
+            <descricao>
+                Cybersegurança / VPN's
+            </descricao>
+            <oradores>
+                <foto>images/tiagorei.png</foto>
+                <nome>Tiago Rei - 
+                    Ex aluno de GPSI/ IPCA (cTESP de aplicações móveis)</nome>
+            </oradores>
+        </event>
+
+        <event>
+            <hora>11:00</hora>
+            <titulo>Pontos de vista de ex-alunos</titulo>
+            <descricao>
+                Painel com ex-alunos do curso - Alunos do IPCA
+            </descricao>
+            <oradores>
+                <foto>images/rodrigoLopes.jpeg</foto>
+                <nome>Rodrigo Ferreira</nome>
+                <foto>images/josiasZe.jpeg</foto>
+                <nome>José Rebelo</nome>
+                <nome>Josias Lopo</nome>
+            </oradores>
+        </event>
+    </day>
+    <day number="27">
+        <event>
+            <hora>10:00</hora>
+            <titulo>Inteligência artificial</titulo>
+            <descricao>
+                Inteligência artificial: entre o potencial infinito e os seus limites
+            </descricao>
+            <oradores>
+                <foto>images/defaultorador.png</foto>
+                <nome>Avelina Fernandes - Lead Data Scientist</nome>
+                <empresa>Automaise</empresa>
+            </oradores>
+        </event>
+
+        <event>
+            <hora>14:45</hora>
+            <titulo>Redes de Fribra Óptica</titulo>
+            <descricao>
+                Mais que um negócio, um “Greate Place to Work”
+            </descricao>
+            <oradores>
+                <foto>images/vascoBarreiros.jpg</foto>
+                <nome>Vasco Barreiros</nome>
+                <empresa>DSTelecom</empresa>
+            </oradores>
+        </event>
+    </day>
+    <day number="28">
+        <event>
+            <hora>10:00</hora>
+            <titulo>Visita de estudo</titulo>
+            <descricao>
+                Visita de estudo ao Porto
+            </descricao>
+            <oradores>
+                <nome>GPSI22</nome>
+            </oradores>
+        </event>
+
+        <event>
+            <hora>11:00</hora>
+            <titulo>Mundo das TI's</titulo>
+            <descricao>
+                Desafios e descobertas: a minha trajetória no mundo das TI's
+            </descricao>
+            <oradores>
+                <foto>images/manuelFaria.png</foto>
+                <nome>Manuel Faria</nome>
+                <empresa>Fundador e Gerente da empresa Centro de Informática</empresa>
+            </oradores>
+        </event>
+
+        <event>
+            <hora>14:45</hora>
+            <titulo>Visita de estudo</titulo>
+            <descricao>
+                Visita de estudo à DSTelecom
+            </descricao>
+            <oradores>
+                <nome>GEI23</nome>
+            </oradores>
+        </event>
+    </day>
+</events>

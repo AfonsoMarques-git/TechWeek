@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Reescreve "programacao" para "programacao.php"
+RewriteRule ^programacao$ programacao.php [L]
+
+
+# Reescreve "eventos-anteriores" para "eventos-anteriores.php"
+RewriteRule ^eventos-anteriores$ eventos-anteriores.php [L]
+
+# Reescreve "contactos" para "contactos.php"
+RewriteRule ^contactos$ contactos.php [L]
+
+# Reescreve "pagina-principal" para "index.php"
+RewriteRule ^pagina-principal$ index.php [L]
