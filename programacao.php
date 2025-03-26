@@ -87,7 +87,7 @@
                             <h2>${event.titulo}</h2>
                             <div class="details-oradores">
                                 <div class="image">
-                                    ${event.fotos.map(foto => foto ? `<img src="${foto}" alt="Foto do orador" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-right: 10px;">` : '').join('')}
+                                    ${event.fotos.map(foto => foto ? `<img src="${foto}" alt="Foto do orador">` : '').join('')}
                                 </div>
                                 <div class="oradores" style="text-align: left; font-size: 1rem; line-height: 1.6;">
                                     <p>${event.descricao}</p>

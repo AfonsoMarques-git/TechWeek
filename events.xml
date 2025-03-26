@@ -23,11 +23,9 @@
                 Whorkshop: Básico de Programação de Arduino - Finalistas ELE22
             </descricao>
             <oradores>
-                <foto>images/defaultorador.png</foto>
+                <foto>images/ele22.jpg</foto>
                 <nome>Francisco Pires</nome>
-                <foto>images/defaultorador.png</foto>
                 <nome>David Puga</nome>
-                <foto>images/defaultorador.png</foto>
                 <nome>Duarte Prazeres</nome>
             </oradores>
         </event>
@@ -54,7 +52,7 @@
             </descricao>
             <oradores>
                 <foto>images/tiagorei.png</foto>
-                <nome>Tiago Rei - 
+                <nome>Tiago Rei -
                     Ex aluno de GPSI/ IPCA (cTESP de aplicações móveis)</nome>
             </oradores>
         </event>
@@ -66,9 +64,8 @@
                 Painel com ex-alunos do curso - Alunos do IPCA
             </descricao>
             <oradores>
-                <foto>images/rodrigoLopes.jpeg</foto>
+                <foto>images/alunosGPSI21.png</foto>
                 <nome>Rodrigo Ferreira</nome>
-                <foto>images/josiasZe.jpeg</foto>
                 <nome>José Rebelo</nome>
                 <nome>Josias Lopo</nome>
             </oradores>
@@ -82,7 +79,7 @@
                 Inteligência artificial: entre o potencial infinito e os seus limites
             </descricao>
             <oradores>
-                <foto>images/defaultorador.png</foto>
+                <foto>images/avelina.jpg</foto>
                 <nome>Avelina Fernandes - Lead Data Scientist</nome>
                 <empresa>Automaise</empresa>
             </oradores>
@@ -109,6 +106,7 @@
                 Visita de estudo ao Porto
             </descricao>
             <oradores>
+                <foto>images/defaultorador.png</foto>
                 <nome>GPSI22</nome>
             </oradores>
         </event>
@@ -133,6 +131,7 @@
                 Visita de estudo à DSTelecom
             </descricao>
             <oradores>
+                <foto>images/defaultorador.png</foto>
                 <nome>GEI23</nome>
             </oradores>
         </event>
