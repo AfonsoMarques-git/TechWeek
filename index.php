@@ -104,7 +104,7 @@
 
                 </div>
                 <div class="empresa">
-                    <img src="images/dstelecom.png" alt="">
+                    <img src="images/dstelecom.jpg" alt="">
 
                 </div>
                 <div class="empresa">

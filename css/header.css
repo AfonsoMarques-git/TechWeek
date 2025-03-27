@@ -1,8 +1,8 @@
 :root {
-    --hover-header: linear-gradient(90deg, rgba(102,139,206,1) 0%, #32dd22 100%);
+    --hover-header: linear-gradient(90deg, rgba(102, 139, 206, 1) 0%, #32dd22 100%);
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +29,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 150px;
 }
 
 .logo>a>img {
@@ -41,6 +42,10 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+    /* Enable wrapping for menu items */
+    justify-content: center;
+    /* Center menu items when wrapped */
 }
 
 .menu a {
@@ -84,9 +89,12 @@ header {
     pointer-events: none;
     cursor: default;
     border-bottom: 2px solid #668bce;
-    background: #668bce; /* Matches the highlight background */
-    color: white; /* Matches the highlight text color */
-    border-radius: 10px; /* Consistent with the highlight style */
+    background: #668bce;
+    /* Matches the highlight background */
+    color: white;
+    /* Matches the highlight text color */
+    border-radius: 10px;
+    /* Consistent with the highlight style */
     font-weight: bold;
     padding: 10px 20px;
     transition: background 0.5s, color 0.5s;
@@ -133,7 +141,7 @@ header {
     box-shadow: 0 0 5px var(--hover-header);
 }
 
-@media (max-width: 1130px){
+@media (max-width: 1130px) {
     .logo>a>img {
         width: 200px;
         height: auto;
@@ -145,52 +153,44 @@ header {
 
     .menu,
     .actions {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        /* Ensure the menu and actions are always displayed */
+        flex-direction: row;
+        /* Align items in a row */
+        position: static;
+        /* Remove absolute positioning */
+        width: auto;
+        /* Reset width */
+        background-color: transparent;
+        /* Remove background color */
+        box-shadow: none;
+        /* Remove box shadow */
+        flex-wrap: wrap;
+        /* Enable wrapping for smaller screens */
+        justify-content: center;
+        /* Center items when wrapped */
     }
 
     .menu a,
     .login-registo a {
-        padding: 15px;
-        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        /* Reset padding */
+        border-bottom: none;
+        /* Remove border */
+        text-align: center;
+        /* Center text for wrapped items */
     }
 
     .hamburger-menu {
-        display: flex;
-    }
-
-    .hamburger-menu.active span:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .hamburger-menu.active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger-menu.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-    }
-
-    .menu.active,
-    .actions.active {
-        display: flex;
-    }
-
-    .logo>a>img {
-        width: 200px;
-        height: auto;
-        padding-left: 10px;
+        display: none;
+        /* Completely hide the hamburger menu */
     }
 }
 
 @media (min-width: 1071px) {
-    .menu, .actions {
+
+    .menu,
+    .actions {
         display: flex;
         flex-direction: row;
         position: static;
@@ -198,12 +198,33 @@ header {
         box-shadow: none;
     }
 
-    .menu a, .login-registo a {
+    .menu a,
+    .login-registo a {
         padding: 10px 20px;
         border-bottom: none;
     }
 
     .hamburger-menu {
         display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .menu {
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo a img {
+        width: 150px;
+    }
+
+    .header {
+        padding: 5px;
     }
 }
